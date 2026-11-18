@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none">
+  <defs>
+    <radialGradient id="bg-glow" cx="50%" cy="46%" r="58%">
+      <stop offset="0%" stop-color="#1c1116" />
+      <stop offset="55%" stop-color="#0e0b0d" />
+      <stop offset="100%" stop-color="#09090b" />
+    </radialGradient>
+    <linearGradient id="phinehas-spear-outer" x1="12" y1="6" x2="52" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fb7185" />
+      <stop offset="55%" stop-color="#e11d48" />
+      <stop offset="100%" stop-color="#9f1239" />
+    </linearGradient>
+    <linearGradient id="phinehas-spear-facet" x1="32" y1="8" x2="48" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#ffe4e6" stop-opacity="0.72" />
+    </linearGradient>
+    <clipPath id="inner-crest-clip">
+      <path d="M32 13L43 26.5L32 50L21 26.5L32 13Z" />
+    </clipPath>
+  </defs>
+
+  <!-- Obsidian square background (GitHub applies its own rounded mask) -->
+  <rect width="1024" height="1024" fill="url(#bg-glow)" />
+
+  <!-- Subtle architectural border frame -->
+  <rect x="24" y="24" width="976" height="976" rx="140" stroke="#ffffff" stroke-opacity="0.06" stroke-width="2" />
+
+  <!-- Centered Phinehas Spear Emblem (64x64 scaled 11.5x -> 736x736 at offset 144,144) -->
+  <g transform="translate(144 144) scale(11.5)">
+    <!-- Outer beveled spear-shield silhouette -->
+    <path
+      d="M32 4L54 20.5L46 45L32 60L18 45L10 20.5L32 4Z"
+      fill="url(#phinehas-spear-outer)"
+    />
+    <!-- Left dark facet for geometric depth -->
+    <path
+      d="M32 4L10 20.5L18 45L32 60V4Z"
+      fill="#09090b"
+      fill-opacity="0.16"
+    />
+    <!-- Inner spear crest -->
+    <path
+      d="M32 13L43 26.5L32 50L21 26.5L32 13Z"
+      fill="url(#phinehas-spear-facet)"
+    />
+    <!-- Central spine cut clipped cleanly inside inner crest -->
+    <path
+      d="M32 13V50"
+      stroke="#9f1239"
+      stroke-width="2"
+      clip-path="url(#inner-crest-clip)"
+    />
+  </g>
+</svg>

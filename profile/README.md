@@ -1,17 +1,26 @@
-# Phinehas HQ
+<p align="center">
+  <a href="https://phinehas.dev">
+    <img src="../assets/phinehas-avatar.png" width="96" height="96" alt="Phinehas Spear emblem" />
+  </a>
+</p>
 
-Zero-tolerance active perimeter defense and transport-layer threat interception middleware for **Node.js**, **Python**, **Go**, and **PHP**.
+<h1 align="center">Phinehas</h1>
 
-Created and maintained by **[@cleave3](https://github.com/cleave3)**.
+<p align="center">
+  Zero-tolerance active perimeter defense &amp; transport-layer threat interception middleware for <strong>Node.js</strong>, <strong>Python</strong>, <strong>Go</strong>, and <strong>PHP</strong>.<br />
+  Created and maintained by <a href="https://github.com/cleave3"><strong>@cleave3</strong></a>
+</p>
 
-[![Created by @cleave3](https://img.shields.io/badge/created%20by-@cleave3-2aa198)](https://github.com/cleave3)
-[![License: Apache-2.0](https://img.shields.io/github/license/phinehas-hq/sdks?color=4caf50)](https://github.com/phinehas-hq/sdks/blob/main/LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/phinehas-hq/sdks?style=social)](https://github.com/phinehas-hq/sdks)
+<p align="center">
+  <a href="https://github.com/cleave3"><img src="https://img.shields.io/badge/created%20by-@cleave3-2aa198" alt="Created by @cleave3" /></a>
+  <a href="https://github.com/phinehas-hq/sdks/blob/main/LICENSE"><img src="https://img.shields.io/github/license/phinehas-hq/sdks?color=4caf50" alt="License: Apache-2.0" /></a>
+  <a href="https://github.com/phinehas-hq/sdks"><img src="https://img.shields.io/github/stars/phinehas-hq/sdks?style=social" alt="GitHub Stars" /></a>
+</p>
 
 ---
 
 ### Repositories
 
-- **[phinehas-hq/sdks](https://github.com/phinehas-hq/sdks)** — Multi-language active defense SDKs (`@phinehas/*`, `phinehas`, `phinehas-go`, `phinehas/phinehas-php`) and shared RFC 8615 / anti-bypass compliance test vectors.
-- **[phinehas-hq/web](https://github.com/phinehas-hq/web)** — Official documentation website ([phinehas.dev](https://phinehas.dev)).
-- **[phinehas-hq/console](https://github.com/phinehas-hq/console)** — Standalone Ingestion Console for fleet-wide strike telemetry and ban synchronization *(in development)*.
+- **[sdks](https://github.com/phinehas-hq/sdks)** — Multi-language active defense SDKs (`@phinehas/*`, `phinehas`, `phinehas-go`, `phinehas/phinehas-php`) and shared RFC 8615 / anti-bypass compliance test vectors.
+- Official documentation website ([phinehas.dev](https://phinehas.dev)).
+- Standalone Ingestion Console for fleet-wide strike telemetry and ban synchronization *(in development)*.
