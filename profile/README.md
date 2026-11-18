@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://phinehas.dev">
-    <img src="../assets/phinehas-avatar.png" width="96" height="96" alt="Phinehas Spear emblem" />
-  </a>
-</p>
-
 <h1 align="center">Phinehas</h1>
 
 <p align="center">

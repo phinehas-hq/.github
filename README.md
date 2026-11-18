@@ -1,10 +1,4 @@
-<p align="center">
-  <a href="https://github.com/phinehas-hq">
-    <img src="assets/phinehas-avatar.png" width="96" height="96" alt="Phinehas Spear emblem" />
-  </a>
-</p>
-
-<h1 align="center">phinehas-hq/.github</h1>
+<h1 align="center">phinehas-hq</h1>
 
 <p align="center">
   Organization-wide GitHub configuration, public profile, and brand assets for <a href="https://github.com/phinehas-hq"><strong>Phinehas HQ</strong></a>.<br />
@@ -18,11 +12,6 @@
 </p>
 
 ---
-
-## Contents
-
-- [`profile/README.md`](profile/README.md) — Public organization overview rendered automatically on [github.com/phinehas-hq](https://github.com/phinehas-hq) *(requires this repository to remain Public)*.
-- [`assets/phinehas-avatar.svg`](assets/phinehas-avatar.svg) & [`assets/phinehas-avatar.png`](assets/phinehas-avatar.png) — Official Phinehas Spear vector mark and 1024×1024 PNG avatar.
 
 ## Related Links
 
